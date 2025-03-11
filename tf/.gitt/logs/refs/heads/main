@@ -1,0 +1,14 @@
+0000000000000000000000000000000000000000 e8873babb7f8043b66b28ae21b69acda93526bb2 Gilad Navok <giladnavok@gmail.com> 1708879497 +0200	commit (initial): first commit
+e8873babb7f8043b66b28ae21b69acda93526bb2 e8873babb7f8043b66b28ae21b69acda93526bb2 Gilad Navok <giladnavok@gmail.com> 1708879505 +0200	Branch: renamed refs/heads/master to refs/heads/main
+e8873babb7f8043b66b28ae21b69acda93526bb2 4ac444ba0cc6cfe807dafaec3e0ff075c3f5b8c8 Gilad Navok <giladnavok@gmail.com> 1708950283 +0200	commit: Added Printer.h
+4ac444ba0cc6cfe807dafaec3e0ff075c3f5b8c8 51e77a5b971b9b6ba64a027c736814e92f784898 Gilad Navok <giladnavok@gmail.com> 1708950758 +0200	pull --all: Merge made by the 'ort' strategy.
+51e77a5b971b9b6ba64a027c736814e92f784898 9fad8fa446e4085900b03b8723d97a8db23c68e0 Gilad Navok <giladnavok@gmail.com> 1708964015 +0200	commit: Improved encapsulation
+9fad8fa446e4085900b03b8723d97a8db23c68e0 83d6553d97466edfa1e03c7de115437081c4e00a Gilad Navok <giladnavok@gmail.com> 1709109076 +0200	commit: Added example test, fixed some bugs and cleaned up
+83d6553d97466edfa1e03c7de115437081c4e00a 5c192f565ab6c09dfad1d7e0f0ec4cfb9544d88d Gilad Navok <giladnavok@gmail.com> 1709150025 +0200	commit: Added basic console interface
+5c192f565ab6c09dfad1d7e0f0ec4cfb9544d88d a9efb8731b791e14ac85f10f605eaa8a5e5826e7 Gilad Navok <giladnavok@gmail.com> 1709402571 +0200	commit: Lexer now trims right spaces on non full line tokens
+a9efb8731b791e14ac85f10f605eaa8a5e5826e7 b13f2976b4fd0b3859a226c5abe6c158220d60bb Gilad Navok <giladnavok@gmail.com> 1709456445 +0200	commit: Added BlockRegistry
+b13f2976b4fd0b3859a226c5abe6c158220d60bb c590e59e3fc6fc67e27fada5fa03472fd61f7290 Gilad Navok <giladnavok@gmail.com> 1709803136 +0200	commit: Added partial support for multiple files
+c590e59e3fc6fc67e27fada5fa03472fd61f7290 aed8079bd84ecdae38fe1e9032cadf00b34fe63c Gilad Navok <giladnavok@gmail.com> 1710493778 +0200	commit: Implemented Options module with FilePositionOptions wrapper and integrated into FilePosition; added file position option setting pathways to Lexer, Parser, and Printer; improved include.h
+aed8079bd84ecdae38fe1e9032cadf00b34fe63c 46961f6ad2d46757c7a565e8cf6d41147ca260c7 Gilad Navok <giladnavok@gmail.com> 1710494168 +0200	commit (amend): Implemented Options module with FilePositionOptions wrapper and integrated into FilePosition; added file position option setting pathways to Lexer, Parser, and Printer; improved include.h
+46961f6ad2d46757c7a565e8cf6d41147ca260c7 fb120a5f443d8b2bb3da199120aeedd0f2e0c491 Gilad Navok <giladnavok@gmail.com> 1722928198 +0300	commit: added no-wrap data if it starts with ':' or '/'
+fb120a5f443d8b2bb3da199120aeedd0f2e0c491 6a06e6f92497522c25afda9fa7a68998d711dad1 Gilad Navok <giladnavok@gmail.com> 1722933914 +0300	commit: added pre first block data, (stil called preproc)

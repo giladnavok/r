@@ -1,0 +1,86 @@
+RLEList.h: 
+	NULL: 
+		(0)RLEListExportToString: 
+		 Expectation of 0 failed at:
+		 tests/realTest.out.c:16
+		 Test starts at line 16
+
+		 FAILED
+		(1)RLEListAppend: PASSED
+		(2)RLEListGet: PASSED
+		(3): PASSED
+		(4)RLEListMap: PASSED
+		(5)RLEListDestory: PASSED
+		(6): PASSED
+	General: 
+		RLEListGet: 
+			(7)Lower bound: PASSED
+			(8)Lower bound result: PASSED
+			(9)Upper bound: 
+			 Expectation of RLEListGet(l, RLEListSize(l), &result) != 0 failed at:
+			 tests/realTest.out.c:73
+			 Test starts at line 73
+
+			 FAILED
+			(10)Upper bound result: 
+			 Expectation of result != RLE_LIST_INDEX_OUT_OF_BOUNDS failed at:
+			 tests/realTest.out.c:78
+			 Test starts at line 78
+
+			 FAILED
+			(11)Full get tests: PASSED
+		RLEListAppend: 
+			(12)Append: PASSED
+			(13)Append many: PASSED
+		RLEListGet from third file: 
+			(14)Lower bound: PASSED
+			(15)Lower bound result: PASSED
+			(16)Upper bound: 
+			 Expectation of RLEListGet(l, RLEListSize(l), &result) != 0 failed at:
+			 tests/realTest.out.c:137
+			 Test starts at line 137
+
+			 FAILED
+			(17)Upper bound result: 
+			 Expectation of result != RLE_LIST_INDEX_OUT_OF_BOUNDS failed at:
+			 tests/realTest.out.c:142
+			 Test starts at line 142
+
+			 FAILED
+			(18)Full get tests: PASSED
+RLEList.h from second file: 
+	General: 
+		RLEListGet from third file: 
+			(19)Lower bound: PASSED
+			(20)Lower bound result: PASSED
+			(21)Upper bound: 
+			 Expectation of RLEListGet(l, RLEListSize(l), &result) != 0 failed at:
+			 tests/realTest.out.c:181
+			 Test starts at line 181
+
+			 FAILED
+			(22)Upper bound result: 
+			 Expectation of result != RLE_LIST_INDEX_OUT_OF_BOUNDS failed at:
+			 tests/realTest.out.c:186
+			 Test starts at line 186
+
+			 FAILED
+			(23)Full get tests: PASSED
+RLEList.h from third file: 
+	General: 
+		RLEListGet from third file: 
+			(24)Lower bound: PASSED
+			(25)Lower bound result: PASSED
+			(26)Upper bound: 
+			 Expectation of RLEListGet(l, RLEListSize(l), &result) != 0 failed at:
+			 tests/realTest.out.c:223
+			 Test starts at line 223
+
+			 FAILED
+			(27)Upper bound result: 
+			 Expectation of result != RLE_LIST_INDEX_OUT_OF_BOUNDS failed at:
+			 tests/realTest.out.c:228
+			 Test starts at line 228
+
+			 FAILED
+			(28)Full get tests: PASSED
