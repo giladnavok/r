@@ -1,3 +1,0 @@
-0000000000000000000000000000000000000000 46961f6ad2d46757c7a565e8cf6d41147ca260c7 Gilad Navok <giladnavok@gmail.com> 1710598380 +0200	branch: Created from HEAD
-46961f6ad2d46757c7a565e8cf6d41147ca260c7 6f89723ab64775ddc74ed8fc45f3c859993bcb80 Gilad Navok <giladnavok@gmail.com> 1710604214 +0200	commit: Added NameIdMappings; Incorporated them into Printer.c; Revamped include.h adding main
-6f89723ab64775ddc74ed8fc45f3c859993bcb80 d258049e1e032f6c54ca759ff8569608a6be3bfd Gilad Navok <giladnavok@gmail.com> 1711274056 +0200	commit: aaa
